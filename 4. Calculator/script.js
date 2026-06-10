@@ -17,10 +17,10 @@ arr.forEach(button => {
             input.value = string;
         }
         else if (e.target.innerHTML == 'DEL') {
-            // Agar string ek evaluated result hai, emoji dikhaye
+            
             if (iscalculated == true) {
                 input.value = "😂";
-                string = ""; // reset string so user can type new input
+                string = ""; 
             } else {
                 string = string.substring(0, string.length - 1);
                 input.value = string;
