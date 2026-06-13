@@ -18,13 +18,10 @@ arr.forEach(button => {
         }
         else if (e.target.innerHTML == 'DEL') {
             
-            if (iscalculated == true) {
-                input.value = "😂";
-                string = ""; 
-            } else {
+            
                 string = string.substring(0, string.length - 1);
                 input.value = string;
-            }
+            
         }
 
 
